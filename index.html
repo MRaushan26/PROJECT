@@ -3,232 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAV University | Redefining Education</title>
+    <title>BCA Minor Project | DAV University</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Floating Navbar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <div class="logo-icon"><i class="fa-solid fa-building-columns"></i></div>
-                <div class="logo-text">DAV <span>UNIVERSITY</span></div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">Academics</a></li>
-                <li><a href="#research">Research & Innovation</a></li>
-                <li><a href="#campus">Campus Life</a></li>
-                <li><a href="#admissions">Admissions</a></li>
-            </ul>
-            <div class="nav-actions">
-                <a href="#apply" class="btn primary-btn">Apply Now</a>
-            </div>
+    <!-- Background Effects -->
+    <div class="cyber-grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="cyber-nav">
+        <div class="nav-brand">
+            <span class="glitch-text" data-text="DAV_UNIV">DAV_UNIV</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">01. Home</a></li>
+            <li><a href="#about">02. The Project</a></li>
+            <li><a href="#features">03. Features</a></li>
+        </ul>
+        <div class="nav-btn-container">
+            <a href="#" class="cyber-btn">INIT_SYSTEM()</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-wrapper">
-            <div class="hero-content">
-                <div class="badge-pill">
-                    <span class="live-dot"></span> Admissions Open 2026-27
-                </div>
-                <h1>The Future of <br> <span class="text-gradient">Higher Education.</span></h1>
-                <p>Break boundaries with industry-integrated programs, world-class research labs, and a curriculum designed for the visionaries of tomorrow.</p>
-                <div class="hero-buttons">
-                    <a href="#programs" class="btn primary-btn">Explore Programs</a>
-                    <a href="#tour" class="btn secondary-btn"><i class="fa-regular fa-circle-play"></i> Watch Video</a>
-                </div>
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">
+                <i class="fa-solid fa-terminal"></i> <span>BCA_STUDENT_WORKSPACE</span>
             </div>
-            <div class="hero-visual">
-                <div class="visual-card main-img">
-                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campus">
+            <h1 class="hero-title">
+                <span class="transparent-text">PRACTICAL</span><br>
+                MINOR PROJECT
+            </h1>
+            <p class="hero-subtitle">
+                Welcome to the digital frontier. A high-tech web interface built exclusively using pure HTML & CSS for the Bachelor of Computer Applications curriculum at DAV University.
+            </p>
+            <div class="hero-actions">
+                <a href="#features" class="btn primary-glow">EXECUTE_PROJECT <i class="fa-solid fa-bolt"></i></a>
+                <a href="#" class="btn outline-glow">VIEW_SOURCE <i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hologram-card">
+                <div class="card-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="title">main.js</span>
                 </div>
-                <div class="visual-card floating-card-1">
-                    <div class="floating-content">
-                        <i class="fa-solid fa-ranking-star"></i>
-                        <div>
-                            <h4>Top Ranked</h4>
-                            <p>University in Punjab</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="visual-card floating-card-2">
-                    <div class="floating-content">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <div>
-                            <h4>100%</h4>
-                            <p>MBA Placements</p>
-                        </div>
-                    </div>
+                <div class="card-body">
+                    <pre><code>
+<span class="keyword">const</span> <span class="variable">student</span> = {
+    <span class="property">degree</span>: <span class="string">"BCA"</span>,
+    <span class="property">university</span>: <span class="string">"DAV University"</span>,
+    <span class="property">project</span>: <span class="string">"Practical Minor"</span>,
+    <span class="property">status</span>: <span class="string">"In Progress"</span>,
+    <span class="property">skills</span>: [<span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Design"</span>]
+};
+
+<span class="keyword">function</span> <span class="function">initSystem</span>() {
+    <span class="console">console</span>.<span class="method">log</span>(<span class="string">"System Online."</span>);
+    <span class="keyword">return</span> student.project;
+}
+                    </code></pre>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Bento Grid Stats Section -->
-    <section class="bento-section">
+    <!-- Project Features Section -->
+    <section id="features" class="features-section">
         <div class="section-title">
-            <h2>DAV at a <span class="text-gradient">Glance</span></h2>
-            <p>A legacy of excellence, scaled for the future.</p>
+            <h2 class="glitch-text" data-text="SYSTEM_FEATURES">SYSTEM_FEATURES</h2>
+            <p>Exploring the core modules of this BCA minor project.</p>
         </div>
-        
-        <div class="bento-grid">
-            <div class="bento-box large-box bg-red">
-                <h3>20 Lacs+</h3>
-                <p>Global Alumni Network</p>
-                <i class="fa-solid fa-earth-americas water-mark"></i>
+
+        <div class="feature-grid">
+            <!-- Feature 1 -->
+            <div class="cyber-card">
+                <div class="card-corner top-left"></div>
+                <div class="card-corner bottom-right"></div>
+                <i class="fa-solid fa-code feature-icon"></i>
+                <h3>Clean Architecture</h3>
+                <p>Built with semantic HTML5 and cutting-edge CSS3 properties including Grid, Flexbox, and custom variables.</p>
             </div>
-            <div class="bento-box bg-dark">
-                <h3>950+</h3>
-                <p>Campuses Worldwide</p>
-                <i class="fa-solid fa-building-columns water-mark"></i>
+
+            <!-- Feature 2 -->
+            <div class="cyber-card highlight">
+                <div class="card-corner top-left"></div>
+                <div class="card-corner bottom-right"></div>
+                <i class="fa-solid fa-microchip feature-icon"></i>
+                <h3>Responsive Design</h3>
+                <p>Fully adaptive interfaces that scale seamlessly from desktop workstations down to mobile devices.</p>
             </div>
-            <div class="bento-box bg-white">
-                <i class="fa-solid fa-hand-holding-dollar highlight-icon"></i>
-                <h4>Scholarships</h4>
-                <p>Up to 100% via DAV NST</p>
-            </div>
-            <div class="bento-box bg-white">
-                <i class="fa-solid fa-flask highlight-icon"></i>
-                <h4>Research Labs</h4>
-                <p>State-of-the-art facilities</p>
-            </div>
-            <div class="bento-box medium-box bg-gray">
-                <h3>1 Lacs+</h3>
-                <p>Expert Faculty & Staff</p>
-                <div class="avatar-group">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100" alt="Faculty">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100" alt="Faculty">
-                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100" alt="Faculty">
-                </div>
+
+            <!-- Feature 3 -->
+            <div class="cyber-card">
+                <div class="card-corner top-left"></div>
+                <div class="card-corner bottom-right"></div>
+                <i class="fa-solid fa-shield-halved feature-icon"></i>
+                <h3>Modern Aesthetics</h3>
+                <p>Utilizing neon glows, glassmorphism, and cyberpunk themes to create a visually striking experience.</p>
             </div>
         </div>
     </section>
 
-    <!-- Elite Programs -->
-    <section id="programs" class="programs-section">
-        <div class="section-title center">
-            <h2>Pioneering <span class="text-gradient">Programs</span></h2>
+    <!-- Image Showcase Section -->
+    <section class="showcase-section">
+        <div class="showcase-content">
+            <h2>Powered by <span class="neon-text">Innovation</span></h2>
+            <p>This project demonstrates practical front-end skills required in the BCA program, utilizing dynamic layouts and modern web design principles.</p>
+            <ul class="skill-list">
+                <li><i class="fa-solid fa-check"></i> Advanced CSS Animations</li>
+                <li><i class="fa-solid fa-check"></i> Cyberpunk UI Design</li>
+                <li><i class="fa-solid fa-check"></i> 100% Vanilla Codebase</li>
+            </ul>
         </div>
-        
-        <div class="program-slider">
-            <div class="program-card">
-                <div class="card-img">
-                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600" alt="Cyber Security">
-                </div>
-                <div class="card-body">
-                    <span class="tag">B.Tech</span>
-                    <h3>AI & Data Science</h3>
-                    <p>Master the algorithms shaping our future in collaboration with industry tech giants.</p>
-                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="program-card">
-                <div class="card-img">
-                    <img src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600" alt="Business">
-                </div>
-                <div class="card-body">
-                    <span class="tag">MBA</span>
-                    <h3>Cloud ERP (SAP)</h3>
-                    <p>Exclusive management program deeply integrated with SAP global standards.</p>
-                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="program-card">
-                <div class="card-img">
-                    <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=600" alt="Engineering">
-                </div>
-                <div class="card-body">
-                    <span class="tag">B.Tech</span>
-                    <h3>Mechatronics (EV)</h3>
-                    <p>Power the electric vehicle revolution with advanced robotics and automation.</p>
-                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
+        <div class="showcase-image">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Matrix Code Background">
+            <div class="image-overlay"></div>
         </div>
     </section>
 
-    <!-- Split Contact/Info Section -->
-    <section class="split-section">
-        <div class="split-image">
-            <div class="overlay">
-                <h2>Join a legacy of leaders.</h2>
-                <p>Your journey to excellence starts here.</p>
-                <div class="quick-links">
-                    <a href="#">PhD Entrance <i class="fa-solid fa-up-right-from-square"></i></a>
-                    <a href="#">Fee Structure <i class="fa-solid fa-up-right-from-square"></i></a>
-                    <a href="#">Scholarships <i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
+    <!-- Footer -->
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-laptop-code"></i> BCA_PROJECT
             </div>
-        </div>
-        <div class="split-form">
-            <div class="form-wrapper">
-                <h3>Request Information</h3>
-                <p>Get personalized guidance from our admissions team.</p>
-                <form>
-                    <div class="input-group">
-                        <input type="text" placeholder="Full Name" required>
-                    </div>
-                    <div class="input-group">
-                        <input type="email" placeholder="Email Address" required>
-                    </div>
-                    <div class="input-group">
-                        <input type="tel" placeholder="Phone Number" required>
-                    </div>
-                    <div class="input-group split">
-                        <select><option>Select Program</option><option>B.Tech</option><option>MBA</option></select>
-                        <select><option>State</option><option>Punjab</option><option>Delhi</option></select>
-                    </div>
-                    <button type="submit" class="btn primary-btn submit-btn">Submit Request</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Minimalist Footer -->
-    <footer>
-        <div class="footer-top">
-            <div class="brand">
-                <div class="logo-text">DAV <span>UNIVERSITY</span></div>
-                <p>National Highway (NH 44), Jalandhar, Punjab 144012</p>
-                <a href="mailto:admission@davuniversity.org" class="contact-mail">admission@davuniversity.org</a>
-            </div>
-            <div class="footer-links-grid">
-                <div>
-                    <h4>Academics</h4>
-                    <a href="#">Undergraduate</a>
-                    <a href="#">Postgraduate</a>
-                    <a href="#">Doctoral Programs</a>
-                    <a href="#">Industry Integrated</a>
-                </div>
-                <div>
-                    <h4>Admissions</h4>
-                    <a href="#">Apply Now</a>
-                    <a href="#">Scholarship (NST)</a>
-                    <a href="#">Fee Structure</a>
-                    <a href="#">Academic Calendar</a>
-                </div>
-                <div>
-                    <h4>Legal</h4>
-                    <a href="#">Anti-Ragging</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Mandatory Disclosures</a>
-                </div>
+            <p>Developed as a Practical Minor Project for DAV University.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-globe"></i></a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 DAV University. Redesigned for Excellence.</p>
-            <div class="socials">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </div>
+            <p>SYSTEM_STATUS: ONLINE | PORT: 8080 | &copy; 2026</p>
         </div>
     </footer>
 </body>
