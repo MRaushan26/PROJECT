@@ -3,225 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAV University | High-Tech Education</title>
+    <title>DAV University | Redefining Education</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Top Bar (Reference from screenshot) -->
-    <div class="top-bar">
-        <div class="top-bar-content">
-            <div class="contact-info">
-                <span><i class="fa-solid fa-phone"></i> Toll Free: 1800-1800-190</span>
-                <span><i class="fa-brands fa-whatsapp"></i> 8264911134</span>
-            </div>
-            <div class="top-links">
-                <a href="#">Alumni</a>
-                <a href="#">IQAC</a>
-                <a href="#">NEP</a>
-                <a href="#">Fee Payment</a>
-                <a href="#">Result</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navigation -->
+    <!-- Floating Navbar -->
     <nav class="navbar">
-        <div class="logo">
-            <div class="logo-icon"><i class="fa-solid fa-building-columns"></i></div>
-            <div class="logo-text">DAV <span>UNIVERSITY</span></div>
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <div class="logo-text">DAV <span>UNIVERSITY</span></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Academics</a></li>
+                <li><a href="#research">Research & Innovation</a></li>
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#apply" class="btn primary-btn">Apply Now</a>
+            </div>
         </div>
-        <ul class="nav-links">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#programs">Programs</a></li>
-            <li><a href="#collaborations">Industry Integrated</a></li>
-            <li><a href="#research">Research</a></li>
-        </ul>
-        <a href="#apply" class="btn apply-btn">Enquire Now!</a>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
-        <div class="hero-content">
-            <div class="tech-badge">
-                <span class="pulse"></span> Explore Majors & Programs
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <div class="badge-pill">
+                    <span class="live-dot"></span> Admissions Open 2026-27
+                </div>
+                <h1>The Future of <br> <span class="text-gradient">Higher Education.</span></h1>
+                <p>Break boundaries with industry-integrated programs, world-class research labs, and a curriculum designed for the visionaries of tomorrow.</p>
+                <div class="hero-buttons">
+                    <a href="#programs" class="btn primary-btn">Explore Programs</a>
+                    <a href="#tour" class="btn secondary-btn"><i class="fa-regular fa-circle-play"></i> Watch Video</a>
+                </div>
             </div>
-            <h1>Empowering the <span class="gradient-text">Future of Tech</span></h1>
-            <p>Experience education redefined. With NEP 2020 integration, industry-aligned curriculum, and advanced research facilities, DAV University is shaping the innovators of tomorrow.</p>
-            <div class="hero-actions">
-                <a href="#programs" class="btn primary-btn">Explore Programs <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#virtual-tour" class="btn secondary-btn"><i class="fa-solid fa-vr-cardboard"></i> Virtual Tour</a>
+            <div class="hero-visual">
+                <div class="visual-card main-img">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campus">
+                </div>
+                <div class="visual-card floating-card-1">
+                    <div class="floating-content">
+                        <i class="fa-solid fa-ranking-star"></i>
+                        <div>
+                            <h4>Top Ranked</h4>
+                            <p>University in Punjab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visual-card floating-card-2">
+                    <div class="floating-content">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>
+                            <h4>100%</h4>
+                            <p>MBA Placements</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <!-- Right side quick links from screenshot -->
-        <div class="quick-links-sidebar">
-            <a href="#" class="sidebar-link">PhD Entrance Examination</a>
-            <a href="#" class="sidebar-link">DAV University National Scholarship Test</a>
-            <a href="#" class="sidebar-link">Fee Structure 2026-2027</a>
-            <a href="#" class="sidebar-link">Hostel Fee Structure</a>
-            <a href="#" class="sidebar-link">Scholarship 2026-27</a>
-            <a href="#" class="sidebar-link">National Ragging Prevention</a>
         </div>
     </header>
 
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="section-header center">
-            <h2>DAV Organization</h2>
-            <div class="red-line"></div>
-        </div>
-        <div class="stats-container">
-            <div class="stat-card">
-                <h3>20 Lacs+</h3>
-                <p>Students</p>
-            </div>
-            <div class="stat-card">
-                <h3>100%</h3>
-                <p>MBA Placements</p>
-            </div>
-            <div class="stat-card">
-                <h3>950+</h3>
-                <p>Campuses</p>
-            </div>
-            <div class="stat-card">
-                <h3>1 Lacs+</h3>
-                <p>Employees</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Programs Section -->
-    <section id="programs" class="programs-section">
-        <div class="section-header">
-            <h2>High-Tech <span class="gradient-text">Programs</span></h2>
-            <div class="red-line"></div>
-            <p>Cutting-edge degrees designed for the modern technology landscape</p>
+    <!-- Bento Grid Stats Section -->
+    <section class="bento-section">
+        <div class="section-title">
+            <h2>DAV at a <span class="text-gradient">Glance</span></h2>
+            <p>A legacy of excellence, scaled for the future.</p>
         </div>
         
-        <div class="grid-container">
-            <!-- Program 1 -->
-            <div class="glass-card">
-                <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Artificial Intelligence">
-                </div>
-                <div class="card-content">
-                    <div class="icon-wrapper"><i class="fa-solid fa-microchip"></i></div>
-                    <h3>B.Tech (AI & Data Science)</h3>
-                    <p>Master machine learning, neural networks, and big data analytics in our state-of-the-art AI labs.</p>
-                    <a href="#" class="read-more">View Curriculum <i class="fa-solid fa-chevron-right"></i></a>
-                </div>
+        <div class="bento-grid">
+            <div class="bento-box large-box bg-red">
+                <h3>20 Lacs+</h3>
+                <p>Global Alumni Network</p>
+                <i class="fa-solid fa-earth-americas water-mark"></i>
             </div>
-            
-            <!-- Program 2 -->
-            <div class="glass-card">
-                <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cloud Computing">
-                </div>
-                <div class="card-content">
-                    <div class="icon-wrapper"><i class="fa-solid fa-cloud"></i></div>
-                    <h3>B.Tech CSE (Cloud ERP)</h3>
-                    <p>Industry-integrated program with SAP. Learn enterprise resource planning and cloud architecture.</p>
-                    <a href="#" class="read-more">View Curriculum <i class="fa-solid fa-chevron-right"></i></a>
-                </div>
+            <div class="bento-box bg-dark">
+                <h3>950+</h3>
+                <p>Campuses Worldwide</p>
+                <i class="fa-solid fa-building-columns water-mark"></i>
             </div>
-
-            <!-- Program 3 -->
-            <div class="glass-card">
-                <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mechatronics">
-                </div>
-                <div class="card-content">
-                    <div class="icon-wrapper"><i class="fa-solid fa-car-battery"></i></div>
-                    <h3>Mechatronics (EV Eng.)</h3>
-                    <p>Pioneering the electric vehicle revolution with advanced robotics and electrical engineering.</p>
-                    <a href="#" class="read-more">View Curriculum <i class="fa-solid fa-chevron-right"></i></a>
+            <div class="bento-box bg-white">
+                <i class="fa-solid fa-hand-holding-dollar highlight-icon"></i>
+                <h4>Scholarships</h4>
+                <p>Up to 100% via DAV NST</p>
+            </div>
+            <div class="bento-box bg-white">
+                <i class="fa-solid fa-flask highlight-icon"></i>
+                <h4>Research Labs</h4>
+                <p>State-of-the-art facilities</p>
+            </div>
+            <div class="bento-box medium-box bg-gray">
+                <h3>1 Lacs+</h3>
+                <p>Expert Faculty & Staff</p>
+                <div class="avatar-group">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100" alt="Faculty">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100" alt="Faculty">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100" alt="Faculty">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Banner -->
-    <section class="red-banner">
-        <h2>Explore. Learn. Excel. Discover more about DAV University's journey towards excellence.</h2>
-        <div class="banner-line"></div>
-    </section>
-
-    <!-- Collaborations Section -->
-    <section id="collaborations" class="collab-section">
-        <div class="collab-content">
-            <h2>Elite <span class="gradient-text">Collaborations</span></h2>
-            <div class="red-line"></div>
-            <p>We partner with industry leaders to bring you unparalleled opportunities and hands-on experience.</p>
-            
-            <div class="partners-list">
-                <div class="partner-item">
-                    <i class="fa-solid fa-building-columns"></i>
-                    <div>
-                        <h4>IIT Mandi</h4>
-                        <p>Minors in AI, Data Science & Business Analytics</p>
-                    </div>
+    <!-- Elite Programs -->
+    <section id="programs" class="programs-section">
+        <div class="section-title center">
+            <h2>Pioneering <span class="text-gradient">Programs</span></h2>
+        </div>
+        
+        <div class="program-slider">
+            <div class="program-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600" alt="Cyber Security">
                 </div>
-                <div class="partner-item">
-                    <i class="fa-solid fa-server"></i>
-                    <div>
-                        <h4>SAP Integration</h4>
-                        <p>Exclusive Cloud ERP specialization programs</p>
-                    </div>
+                <div class="card-body">
+                    <span class="tag">B.Tech</span>
+                    <h3>AI & Data Science</h3>
+                    <p>Master the algorithms shaping our future in collaboration with industry tech giants.</p>
+                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600" alt="Business">
+                </div>
+                <div class="card-body">
+                    <span class="tag">MBA</span>
+                    <h3>Cloud ERP (SAP)</h3>
+                    <p>Exclusive management program deeply integrated with SAP global standards.</p>
+                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=600" alt="Engineering">
+                </div>
+                <div class="card-body">
+                    <span class="tag">B.Tech</span>
+                    <h3>Mechatronics (EV)</h3>
+                    <p>Power the electric vehicle revolution with advanced robotics and automation.</p>
+                    <a href="#" class="arrow-link">Curriculum <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
-        <div class="contact-form-visual">
-            <div class="form-container">
-                <h3>Contact Us</h3>
-                <div class="red-line"></div>
+    </section>
+
+    <!-- Split Contact/Info Section -->
+    <section class="split-section">
+        <div class="split-image">
+            <div class="overlay">
+                <h2>Join a legacy of leaders.</h2>
+                <p>Your journey to excellence starts here.</p>
+                <div class="quick-links">
+                    <a href="#">PhD Entrance <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="#">Fee Structure <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <a href="#">Scholarships <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="split-form">
+            <div class="form-wrapper">
+                <h3>Request Information</h3>
+                <p>Get personalized guidance from our admissions team.</p>
                 <form>
-                    <input type="text" placeholder="Enter Name *">
-                    <input type="email" placeholder="Enter Email Address *">
-                    <input type="tel" placeholder="Enter Mobile Number *">
-                    <div class="select-row">
-                        <select><option>Select State *</option></select>
-                        <select><option>Select City *</option></select>
+                    <div class="input-group">
+                        <input type="text" placeholder="Full Name" required>
                     </div>
-                    <button type="submit" class="btn primary-btn submit-btn">Submit Enquiry</button>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-group split">
+                        <select><option>Select Program</option><option>B.Tech</option><option>MBA</option></select>
+                        <select><option>State</option><option>Punjab</option><option>Delhi</option></select>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Submit Request</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Minimalist Footer -->
     <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <div class="logo-text footer-logo">DAV <span>UNIVERSITY</span></div>
-                <p>DAV University Jalandhar - Pathankot, National Highway (NH 44), JALANDHAR - 144 012, Punjab</p>
-                <div class="social-links">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <div class="footer-top">
+            <div class="brand">
+                <div class="logo-text">DAV <span>UNIVERSITY</span></div>
+                <p>National Highway (NH 44), Jalandhar, Punjab 144012</p>
+                <a href="mailto:admission@davuniversity.org" class="contact-mail">admission@davuniversity.org</a>
+            </div>
+            <div class="footer-links-grid">
+                <div>
+                    <h4>Academics</h4>
+                    <a href="#">Undergraduate</a>
+                    <a href="#">Postgraduate</a>
+                    <a href="#">Doctoral Programs</a>
+                    <a href="#">Industry Integrated</a>
                 </div>
-            </div>
-            <div class="footer-links">
-                <h4>Scholarships</h4>
-                <ul>
-                    <li><a href="#">Eligibility</a></li>
-                    <li><a href="#">Academic Calendar 2025-26</a></li>
-                    <li><a href="#">Curriculum</a></li>
-                    <li><a href="#">Examination</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h4>Contact Us</h4>
-                <p><i class="fa-solid fa-phone"></i> Admission Enquiry: 070870-17551</p>
-                <p><i class="fa-solid fa-phone"></i> Toll Free: 1800-1800-190</p>
-                <p><i class="fa-solid fa-envelope"></i> registrar@davuniversity.org</p>
+                <div>
+                    <h4>Admissions</h4>
+                    <a href="#">Apply Now</a>
+                    <a href="#">Scholarship (NST)</a>
+                    <a href="#">Fee Structure</a>
+                    <a href="#">Academic Calendar</a>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <a href="#">Anti-Ragging</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Mandatory Disclosures</a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Copyright 2026 DAV University. Powered by ThinkNEXT Technologies Pvt. Ltd.</p>
+            <p>&copy; 2026 DAV University. Redesigned for Excellence.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
     </footer>
 </body>
