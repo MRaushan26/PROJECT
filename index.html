@@ -3,147 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCA Minor Project | DAV University</title>
+    <title>BCA Minor Project | Showcase</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Background Effects -->
-    <div class="cyber-grid"></div>
-    <div class="glow-orb orb-1"></div>
-    <div class="glow-orb orb-2"></div>
+    <!-- Abstract Gradient Background -->
+    <div class="gradient-bg">
+        <div class="color-blob blob-1"></div>
+        <div class="color-blob blob-2"></div>
+        <div class="color-blob blob-3"></div>
+    </div>
 
     <!-- Navigation -->
-    <nav class="cyber-nav">
-        <div class="nav-brand">
-            <span class="glitch-text" data-text="DAV_UNIV">DAV_UNIV</span>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <span>BCA.<span>Project</span></span>
         </div>
         <ul class="nav-links">
-            <li><a href="#home">01. Home</a></li>
-            <li><a href="#about">02. The Project</a></li>
-            <li><a href="#features">03. Features</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#tech">Tech Stack</a></li>
         </ul>
-        <div class="nav-btn-container">
-            <a href="#" class="cyber-btn">INIT_SYSTEM()</a>
-        </div>
+        <a href="https://davuniversity.org" target="_blank" class="dav-badge">DAV University</a>
     </nav>
 
     <!-- Hero Section -->
-    <header id="home" class="hero">
+    <header class="hero">
         <div class="hero-content">
-            <div class="badge">
-                <i class="fa-solid fa-terminal"></i> <span>BCA_STUDENT_WORKSPACE</span>
+            <div class="pill-badge">
+                <span class="sparkle">✨</span> Practical Minor Project 2026
             </div>
-            <h1 class="hero-title">
-                <span class="transparent-text">PRACTICAL</span><br>
-                MINOR PROJECT
-            </h1>
-            <p class="hero-subtitle">
-                Welcome to the digital frontier. A high-tech web interface built exclusively using pure HTML & CSS for the Bachelor of Computer Applications curriculum at DAV University.
-            </p>
-            <div class="hero-actions">
-                <a href="#features" class="btn primary-glow">EXECUTE_PROJECT <i class="fa-solid fa-bolt"></i></a>
-                <a href="#" class="btn outline-glow">VIEW_SOURCE <i class="fa-brands fa-github"></i></a>
+            <h1>Designing the <br> <span class="gradient-text">Next Generation</span> <br> Web Experience.</h1>
+            <p>A beautiful, highly interactive web project developed as part of the Bachelor of Computer Applications curriculum. Showcasing modern UI/UX principles, clean architecture, and seamless responsive design.</p>
+            
+            <div class="hero-buttons">
+                <a href="#explore" class="btn primary-btn">Explore Project <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://github.com/MRaushan26/PROJECT" class="btn secondary-btn"><i class="fa-brands fa-github"></i> View Repository</a>
             </div>
         </div>
-        <div class="hero-visual">
-            <div class="hologram-card">
-                <div class="card-header">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                    <span class="title">main.js</span>
+        
+        <div class="hero-image-wrapper">
+            <div class="glass-hero-card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Web Development Workspace">
+                <div class="floating-badge top-left">
+                    <i class="fa-solid fa-code"></i> Frontend
                 </div>
-                <div class="card-body">
-                    <pre><code>
-<span class="keyword">const</span> <span class="variable">student</span> = {
-    <span class="property">degree</span>: <span class="string">"BCA"</span>,
-    <span class="property">university</span>: <span class="string">"DAV University"</span>,
-    <span class="property">project</span>: <span class="string">"Practical Minor"</span>,
-    <span class="property">status</span>: <span class="string">"In Progress"</span>,
-    <span class="property">skills</span>: [<span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Design"</span>]
-};
-
-<span class="keyword">function</span> <span class="function">initSystem</span>() {
-    <span class="console">console</span>.<span class="method">log</span>(<span class="string">"System Online."</span>);
-    <span class="keyword">return</span> student.project;
-}
-                    </code></pre>
+                <div class="floating-badge bottom-right">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> UI/UX
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Project Features Section -->
+    <!-- Features Bento Grid -->
     <section id="features" class="features-section">
-        <div class="section-title">
-            <h2 class="glitch-text" data-text="SYSTEM_FEATURES">SYSTEM_FEATURES</h2>
-            <p>Exploring the core modules of this BCA minor project.</p>
+        <div class="section-header">
+            <h2>Project <span class="gradient-text">Highlights</span></h2>
+            <p>What makes this BCA minor project stand out.</p>
         </div>
 
-        <div class="feature-grid">
-            <!-- Feature 1 -->
-            <div class="cyber-card">
-                <div class="card-corner top-left"></div>
-                <div class="card-corner bottom-right"></div>
-                <i class="fa-solid fa-code feature-icon"></i>
-                <h3>Clean Architecture</h3>
-                <p>Built with semantic HTML5 and cutting-edge CSS3 properties including Grid, Flexbox, and custom variables.</p>
+        <div class="bento-grid">
+            <!-- Box 1 -->
+            <div class="bento-card col-span-2 row-span-2 premium-glass">
+                <div class="card-content">
+                    <div class="icon-box"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>Fully Responsive Design</h3>
+                    <p>Built from the ground up to look perfect on any device. Whether it's a massive desktop monitor or a small mobile screen, the interface adapts beautifully.</p>
+                </div>
+                <div class="card-image-bg">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Responsive Layouts">
+                </div>
             </div>
 
-            <!-- Feature 2 -->
-            <div class="cyber-card highlight">
-                <div class="card-corner top-left"></div>
-                <div class="card-corner bottom-right"></div>
-                <i class="fa-solid fa-microchip feature-icon"></i>
-                <h3>Responsive Design</h3>
-                <p>Fully adaptive interfaces that scale seamlessly from desktop workstations down to mobile devices.</p>
+            <!-- Box 2 -->
+            <div class="bento-card pure-white">
+                <div class="icon-box red"><i class="fa-brands fa-html5"></i></div>
+                <h3>Clean HTML5</h3>
+                <p>Semantic markup ensuring high accessibility and excellent SEO performance.</p>
             </div>
 
-            <!-- Feature 3 -->
-            <div class="cyber-card">
-                <div class="card-corner top-left"></div>
-                <div class="card-corner bottom-right"></div>
-                <i class="fa-solid fa-shield-halved feature-icon"></i>
-                <h3>Modern Aesthetics</h3>
-                <p>Utilizing neon glows, glassmorphism, and cyberpunk themes to create a visually striking experience.</p>
+            <!-- Box 3 -->
+            <div class="bento-card pure-white">
+                <div class="icon-box blue"><i class="fa-brands fa-css3-alt"></i></div>
+                <h3>Advanced CSS3</h3>
+                <p>Utilizing Flexbox, Grid, custom properties, and smooth animations.</p>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="bento-card col-span-2 pure-white flex-row">
+                <div class="flex-content">
+                    <h3>Built for DAV University</h3>
+                    <p>Fulfilling the requirements for the Practical Minor Project under the BCA curriculum, demonstrating practical, industry-ready skills.</p>
+                </div>
+                <div class="dav-logo-large">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Image Showcase Section -->
-    <section class="showcase-section">
-        <div class="showcase-content">
-            <h2>Powered by <span class="neon-text">Innovation</span></h2>
-            <p>This project demonstrates practical front-end skills required in the BCA program, utilizing dynamic layouts and modern web design principles.</p>
-            <ul class="skill-list">
-                <li><i class="fa-solid fa-check"></i> Advanced CSS Animations</li>
-                <li><i class="fa-solid fa-check"></i> Cyberpunk UI Design</li>
-                <li><i class="fa-solid fa-check"></i> 100% Vanilla Codebase</li>
-            </ul>
-        </div>
-        <div class="showcase-image">
-            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Matrix Code Background">
-            <div class="image-overlay"></div>
+    <!-- Tech Stack Visual -->
+    <section id="tech" class="tech-section">
+        <div class="glass-container">
+            <h2>Zero Dependencies. <br> <span class="gradient-text">Pure Performance.</span></h2>
+            <p>This project relies entirely on Vanilla Web Technologies. No heavy frameworks, no unnecessary libraries. Just pure, clean code.</p>
+            
+            <div class="tech-icons">
+                <div class="tech-item">
+                    <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fa-solid fa-pen-nib" style="color: #8B5CF6;"></i>
+                    <span>UI Design</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="cyber-footer">
+    <footer>
         <div class="footer-content">
-            <div class="footer-logo">
-                <i class="fa-solid fa-laptop-code"></i> BCA_PROJECT
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <span>BCA.<span>Project</span></span>
+                </div>
+                <p>Bachelor of Computer Applications <br> DAV University, Jalandhar</p>
             </div>
-            <p>Developed as a Practical Minor Project for DAV University.</p>
-            <div class="social-links">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-globe"></i></a>
+            <div class="footer-links">
+                <a href="https://github.com/MRaushan26/PROJECT" target="_blank">GitHub Repository</a>
+                <a href="https://davuniversity.org" target="_blank">DAV University</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>SYSTEM_STATUS: ONLINE | PORT: 8080 | &copy; 2026</p>
+            <p>&copy; 2026 | Developed for BCA Practical Minor Project.</p>
         </div>
     </footer>
 </body>
